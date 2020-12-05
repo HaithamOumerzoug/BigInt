@@ -1,4 +1,4 @@
-<h1 align="center">BigInt</h1>
+<h1 align="center" color="Red">BigInt</h1>
 <h3 align="center">Arbitrary-sized integer class for Java</h3>
 
 ---
@@ -10,6 +10,9 @@
 * [Infos](#infos)
 * [Usage](#usage)
 * [Features](#features)
+* [Contributing](#Contributing)
+* [License](#License)
+
 
 ## Infos
 
@@ -23,18 +26,16 @@ Then, you can simply run the project as java application.
 
 ## Features
 
-### Functions
-
 #### Constructor: `BigInt()`, `BigInt(StringBuffer)`,
   constructor of `BigInt`class .
-It is possible to instantiate a BigInt in this ways:  
-```java
-StringBuffer s1=new StringBuffer("2765456545667765454335566449976755");
-BigInt a =new BigInt(s1);
-BigInt b=new BigInt();
-BigInt c; 
-```
-In this class defines an attribute of type StringBuffer which must store us the big integer.
+  It is possible to instantiate a BigInt in this ways:  
+  ```java
+  StringBuffer s1=new StringBuffer("2765456545667765454335566449976755");
+  BigInt a =new BigInt(s1);
+  BigInt b=new BigInt();
+  BigInt c; 
+  ```
+  In this class defines an attribute of type StringBuffer which must store us the big integer.
 ### Methods:
   * #### `check(char)`
     static boolean function use to check if values are only integer.
@@ -98,3 +99,8 @@ In this class defines an attribute of type StringBuffer which must store us the 
     ```java
     Big1 = Big1.inf(Big2);
     ``` 
+## Contributing
+  Contributions are welcome, this repository, modify it, open a pull  request or issue. You can really use it whatever you want.
+
+## License
+This project is licensed under the terms of the [MIT license]
