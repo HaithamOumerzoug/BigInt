@@ -10,8 +10,6 @@
 * [Infos](#infos)
 * [Usage](#usage)
 * [Features](#features)
-* [Contributing](#contributing)
-* [License](#license)
 
 ## Infos
 
