@@ -103,4 +103,4 @@ Then, you can simply run the project as java application.
   Contributions are welcome, this repository, modify it, open a pull  request or issue. You can really use it whatever you want.
 
 ## License
-This project is licensed under the terms of the [MIT license]
+This project is licensed under the terms of the [MIT license](LICENSE)
