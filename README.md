@@ -1,4 +1,4 @@
-<h1 align="center" color="Red">BigInt</h1>
+<h1 align="center">BigInt</h1>
 <h3 align="center">Arbitrary-sized integer class for Java</h3>
 
 ---
