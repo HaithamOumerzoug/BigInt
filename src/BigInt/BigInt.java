@@ -1,6 +1,6 @@
 package BigInt;
 /**
- * BigNumber - a BigInt implementation in Java.
+ * BigInteger - a BigInt implementation in Java.
  * This file is licensed under the MIT license.
  * Do not remove this comment.
  * 2020
