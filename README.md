@@ -34,3 +34,67 @@ BigInt a =new BigInt(s1);
 BigInt b=new BigInt();
 BigInt c; 
 ```
+In this class defines an attribute of type StringBuffer which must store us the big integer.
+### Methods:
+  * #### `check(char)`
+    static boolean function use to check if values are only integer.
+    
+  * #### `.Add(BigInt)`
+    addition between two `BigInt`.
+    ```java
+    Big1 = Big1.Add(Big2);
+    ```
+
+  * #### `.Sub(BigInt)`
+    subtraction between two `BigInt`.
+    ```java
+    Big1 = Big1.Sub(Big2);
+    ```
+
+  * #### `.Mult(BigInt)`
+    multiplication between two `BigInt`.
+    ```java
+    Big1 = Big1.Mult(Big2);
+    ```
+
+  * #### `.Divs(BigInt)`
+    division between two `BigInt`.
+    ```java
+    Big1 = Big1.Divs(Big2);
+    ```
+
+  * #### `.Mod(BigInt)`
+    modulo of a `BigInt` over another `BigInt` passed as parameters.
+    ```java
+    Big1 = Big1.Mod(Big2);
+    ```
+
+  * #### `.AddMod(BigInt , BigInt)`
+    addition modulo between two `BigInt`.
+    ```java
+    Big1 = Big1.AddMod(Big2);
+    ```
+
+  * #### `.SubMod(BigInt , BigInt)`
+    subtraction modulo between two `BigInt`.
+    ```java
+    Big1 = Big1.SubMod(Big2);
+    ```
+
+  * #### `.MultMod(BigInt , BigInt)`
+    multiplication modulo between two `BigInt`.
+    ```java
+    Big1 = Big1.MultMod(Big2);
+    ```
+
+  * #### `.DivsMod(BigInt , BigInt)`
+    division modulo between two `BigInt`.
+    ```java
+    Big1 = Big1.DivsMod(Big2);
+    ```
+    
+  * #### `.inf(BigInt)`
+    boolean function use to test if the current object is less than the object passed as a parameter.
+    ```java
+    Big1 = Big1.inf(Big2);
+    ``` 
