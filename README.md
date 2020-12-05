@@ -29,7 +29,7 @@ Then, you can simply run the project as java application.
   constructor of `BigInt`class .
 It is possible to instantiate a BigInt in this ways:  
 ```java
-StringBuffer s2=new StringBuffer("2765456545667765454335566449976755");
+StringBuffer s1=new StringBuffer("2765456545667765454335566449976755");
 BigInt a =new BigInt(s1);
 BigInt b=new BigInt();
 BigInt c; 
