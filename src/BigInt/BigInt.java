@@ -1,4 +1,4 @@
-package BigInteger;
+package BigInt;
 /**
  * BigNumber - a BigInt implementation in Java.
  * This file is licensed under the MIT license.
