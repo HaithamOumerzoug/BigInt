@@ -101,7 +101,7 @@ public class BigInt {
 	}
 	//Subtraction method
 	public BigInt Sub(BigInt b) {
-		StringBuffer zero=new StringBuffer("0");
+		StringBuffer zero = new StringBuffer("0");
 		BigInt answer= new BigInt(zero);
 		BigInt ocp = this;
 		BigInt ocp2 = b;
@@ -200,6 +200,7 @@ public class BigInt {
 		
 		return answer;
 	}
+	//Max method
 	public StringBuffer Max(BigInt b) {
 		StringBuffer answer= new StringBuffer("");
 		if(this.s.charAt(0) == '-' && b.s.charAt(0) != '-' && this.s.length() == b.s.length()) {
@@ -408,11 +409,12 @@ public class BigInt {
 		System.out.println("Subtraction = "+(a.Sub(b)).s);
 		System.out.println("Multiplication = "+(a.Mult(b)).s);
 		System.out.println("Division = "+(a.Divs(b)).s);
-		System.out.println("Sum modulo "+ s3 +":"+(a.AddMod(b,c)).s);
-		System.out.println("Subtraction modulo "+ s3 +":"+(a.SubMod(b,c)).s);
-		System.out.println("Multiplication modulo "+ s3 +":"+(a.MultMod(b,c)).s);
-		System.out.println("Division modulo "+ s3 +": "+(a.DivsMod(b,c)).s);
-		
+		System.out.println("Sum modulo "+ s3 +"= "+(a.AddMod(b,c)).s);
+		System.out.println("Subtraction modulo "+ s3 +"= "+(a.SubMod(b,c)).s);
+		System.out.println("Multiplication modulo "+ s3 +"= "+(a.MultMod(b,c)).s);
+		System.out.println("Division modulo "+ s3 +"= "+(a.DivsMod(b,c)).s);
 	}
+	//Thank you for reading my repository, i hope you learn something new .
+	//T
 }
 
