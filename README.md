@@ -23,6 +23,10 @@ BigInt class allows us to handle large integers (integers with a size larger tha
 1. Create new java project. 
 1. Installation is very simple, just download and copy the [BigInt class](src/BigInt/BigInt.java) to your project.  
 Then, you can simply run the project as java application.
+- Ou vous pouvez installer le projet via la commande :
+```git
+   git clone https://github.com/HaithamOumerzoug/BigInt.git
+```
 
 ## Features
 
